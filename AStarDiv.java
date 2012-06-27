@@ -1,8 +1,3 @@
-//Michael Boone
-//SID: 992186566
-//ECS 170 project 1
-
-
 import java.awt.Point;
 import java.util.ArrayList;
 import java.util.List;
