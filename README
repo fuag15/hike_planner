@@ -1,0 +1,9 @@
+I used basic heuristic AI methods to take a map with altitude information and plot the easiest route from point A to point B. Working on integrating it with Google Maps to be used for hikers around the world, hopefully I will get to it before Google does.
+
+This code uses the A* algorithm to search for points with an admissible heuristic and binary min-heap / hash of bits for internal storage / record keeping. I experimented with several heuristics I used a supplied library for testing the different algorithm implementations and heuristics against a dijkstra model, as well as supplied libraries for showing the map and the path taken and points explored
+
+The source is in Java and available and in the image the red represents places on the map the algorithm considered moving and the red line is the path it chose.
+
+It should work on any x,y,z topographical map.
+
+
